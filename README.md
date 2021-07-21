@@ -24,7 +24,7 @@ By [linking an existing Azure Functions app](https://docs.microsoft.com/azure/st
 
 ## Get started
 
-First, follow the steps to run the API project in a debugging session.
+First, follow the steps to run the [API project in a debugging session](https://github.com/craigshoemaker/static-web-apps-custom-functions-api).
 
 1. Clone the repository:
 
