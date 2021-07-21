@@ -8,7 +8,7 @@ This demo app shows how to link an Azure Static Web App to an existing Azure Fun
 
 Azure Static Web Apps defaults to a managed Azure Functions app as the API for the website. [Managed Functions don't support all the triggers](https://docs.microsoft.com/azure/static-web-apps/apis) that a typical Functions app does. 
 
-This sample application shows how to link an Azure Static Web Apps site to an existing Azure Functions application, which is supports all tiggers, bindings, and featuers of Azure Functions.
+This sample application shows how to link an Azure Static Web Apps site to an existing Azure Functions application, which is supports all triggers, bindings, and features of Azure Functions.
 
 ## How it works
 
