@@ -17,7 +17,6 @@ By [linking an existing Azure Functions app](https://docs.microsoft.com/azure/st
 ## Prerequisites
 
 - [Azure Static Web Apps CLI](https://github.com/Azure/static-web-apps-cli)
-- [Azure Functions VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 - [Azure Static Web Apps VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps)
 - [Sample API project](https://github.com/craigshoemaker/static-web-apps-custom-functions-api)
 
