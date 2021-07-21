@@ -4,6 +4,8 @@ Take advantage of the flexibility of Azure Functions and leverage the ease-of-us
 
 This demo app shows how to link an Azure Static Web App to an existing Azure Functions app. To run the application, you need to run the [API app](https://github.com/craigshoemaker/static-web-apps-custom-functions-api) before attempting the below steps to run this front-end application.
 
+![Diagram](diagram.png)
+
 ## Background
 
 Azure Static Web Apps defaults to a managed Azure Functions app as the API for the website. [Managed Functions don't support all the triggers](https://docs.microsoft.com/azure/static-web-apps/apis) that a typical Functions app does. 
@@ -21,6 +23,8 @@ By [linking an existing Azure Functions app](https://docs.microsoft.com/azure/st
 - [Sample API project](https://github.com/craigshoemaker/static-web-apps-custom-functions-api)
 
 ## Get started
+
+First, follow the steps to run the API project in a debugging session.
 
 1. Clone the repository:
 
@@ -40,4 +44,4 @@ By [linking an existing Azure Functions app](https://docs.microsoft.com/azure/st
 
 1. Start the app:
 
-    `swa start`
+    `swa start --api=http://localhost:7071`
