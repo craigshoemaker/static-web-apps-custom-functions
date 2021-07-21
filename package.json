@@ -4,7 +4,7 @@
   "description": "Volunteer Signup: An Azure Static Web Apps front-end",
   "main": "index.html",
   "scripts": {
-    "start": "swa start"
+    "start": "swa start --api=http://localhost:7071"
   },
   "repository": {
     "type": "git",
